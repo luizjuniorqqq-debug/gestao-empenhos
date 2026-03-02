@@ -1,0 +1,35 @@
+body{font-family:'Segoe UI',Tahoma,Verdana,sans-serif;background:#f5f7fa;margin:0;color:#333;}
+header{background:linear-gradient(90deg,#1abc9c,#3498db);color:#fff;padding:20px;text-align:center;font-size:26px;font-weight:bold;}
+header img{max-height:60px;margin-bottom:10px;border-radius:6px;}
+
+#loginScreen,#app{display:flex;flex-direction:column;gap:15px;max-width:950px;margin:20px auto;padding:20px;background:#fff;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.1);}
+
+.field-group{display:flex;flex-wrap:wrap;gap:15px;margin-bottom:15px;}
+.field-group>div{flex:1;min-width:180px;}
+
+input,textarea,select,button{padding:8px;border-radius:6px;border:1px solid #ccc;font-size:14px;}
+
+button{cursor:pointer;border:none;color:#fff;background:#3498db;transition:0.3s;}
+button:hover{background:#2980b9;}
+
+.card{border-radius:10px;padding:12px;margin:8px 0;box-shadow:0 2px 8px rgba(0,0,0,0.12);background:#fff;transition:0.3s;}
+.card.alerta-vencimento{border-left:4px solid #e74c3c;}
+
+.card-header{display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-weight:bold;}
+.card-body{display:none;padding-top:10px;}
+
+.status-bar{height:8px;width:100%;border-radius:4px;margin-top:6px;}
+.status-bar.pendente{background:#f1c40f;}    /* Amarelo */
+.status-bar.programado{background:#e67e22;} /* Laranja */
+.status-bar.liberado{background:#2ecc71;}   /* Verde */
+
+#calendar{max-width:950px;margin:20px auto;}
+
+label{font-weight:bold;font-size:13px;}
+
+.indicadores-container{margin-bottom:20px;}
+.indicador{margin-bottom:8px;font-size:14px;}
+.indicador-bar{height:12px;border-radius:6px;background:#3498db;display:inline-block;}
+
+.delete-btn{background:#e74c3c;padding:4px 8px;border-radius:4px;font-size:12px;margin-left:8px;cursor:pointer;color:#fff;}
+.delete-btn:hover{background:#c0392b;}
